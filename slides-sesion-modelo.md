@@ -8,7 +8,7 @@
 ## Slide 1 — Portada
 - **Título:** Ecosistema Full‑Stack Cloud‑Native en 30 minutos
 - **Subtítulo:** De idea a URL pública en Azure
-- **Profesor:** Beto (Ninko) — Senior Software Engineer
+- **Profesor:** Ninkovski Morales (Ninko) — Senior Software Engineer
 - **Universidad:** UTEC — Ingeniería de Software
 - **Call to action:** Deja tu LinkedIn listo, hoy lo vas a potenciar.
 
@@ -33,8 +33,8 @@
 ## Slide 4 — Agenda (30 minutos)
 - Warm‑up — Empleabilidad y contexto (4 min)
 - Design — Arquitectura + User Story (4 min)
-- Develop — Live coding (10 min)
-- Ship — Despliegue en Azure (4 min)
+- Explain Architech — Despliegue en Azure (4 min)
+- Demo — Live coding (10 min)
 - Check — Q&A + verificación (3 min)
 - Close — Reto técnico / tarea (5 min)
 
@@ -78,7 +78,7 @@
 
 ---
 
-## Slide 9 — Live Coding: Backend (Plan)
+## Slide 9 — DEMO: Backend (Plan)
 - Crear endpoint `GET /api/resume`.
 - Definir DTOs: `Profile`, `Experience`, `Skill`.
 - Devolver JSON mock de perfil profesional.
@@ -95,7 +95,7 @@
 
 ---
 
-## Slide 11 — Live Coding: Frontend (Plan)
+## Slide 11 — DEMO: Frontend (Plan)
 - Crear componente principal: `PortfolioPage`.
 - Hacer `fetch` a `/api/resume` (URL de Azure).
 - Manejar `isLoading`, `error`, `data`.
@@ -143,7 +143,7 @@
 ## Slide 16 — Reto Técnico (Tarea)
 - Migrar mock de datos a **H2** con repositorio JPA.
 - Añadir validación de `X-API-KEY` (filtro/interceptor).
-- Implementar `Skeleton Screen` en el frontend.
+- Implementar descarga PDf en el frontend.
 - Agregar tests unitarios para el controller.
 
 ---
@@ -157,8 +157,9 @@
 ---
 
 ## Slide 18 — Siguientes Pasos y Recursos
-- Refinar tu portafolio con más endpoints (proyectos, logros, blog).
+- Agregar tu portafolio con más endpoints (proyectos, logros, blog).
 - Integrar pruebas automatizadas en CI.
+- Agregar envio de correos a reclutadores.
 - Recursos:
   - Spring Boot docs, React docs, Azure App Service docs.
 - Preguntas / Q&A.
@@ -170,3 +171,4 @@
 - Lo que hiciste hoy puede crecer a un portafolio profesional completo.
 - Invita a los reclutadores a probar tu URL.
 - Gracias por tu tiempo — ¡a construir!
+
